@@ -1,15 +1,13 @@
 package $package$
 
 import org.scalatra._
-import scalate.ScalateSupport
 
-class $servlet_name$ extends $name;format="Camel"$Stack {
+class $servlet_name$ extends ScalatraServlet {
 
   get("/") {
     <html>
       <body>
-        <h1>Hello, world!</h1>
-        Say <a href="hello-scalate">hello to Scalate</a>.
+        <h1>Arcusys rules!</h1>
       </body>
     </html>
   }
